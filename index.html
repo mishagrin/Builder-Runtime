@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scene Builder Init</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <scene-builder scene="./models/scene.glb" hdri="./hdri/courtyard.hdr"></scene-builder>
+    <scene-builder scene="./models/scene2.glb" hdri="./hdri/courtyard.hdr"></scene-builder>
+</body>
+
+<script src="./js/scenebuilder.js"></script>
+<script type="module">
+    Builder.Start();
+</script>
+
+</html>
